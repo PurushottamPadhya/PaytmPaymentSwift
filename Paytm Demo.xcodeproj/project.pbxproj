@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED797E920ECC77500BEA1A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED797E820ECC77500BEA1A3 /* AppDelegate.swift */; };
+		CED797EB20ECC77500BEA1A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED797EA20ECC77500BEA1A3 /* ViewController.swift */; };
+		CED797EE20ECC77500BEA1A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED797EC20ECC77500BEA1A3 /* Main.storyboard */; };
+		CED797F020ECC77A00BEA1A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED797EF20ECC77A00BEA1A3 /* Assets.xcassets */; };
+		CED797F320ECC77A00BEA1A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED797F120ECC77A00BEA1A3 /* LaunchScreen.storyboard */; };
+		CED797FE20ECC77A00BEA1A3 /* Paytm_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED797FD20ECC77A00BEA1A3 /* Paytm_DemoTests.swift */; };
+		CED7980920ECC77A00BEA1A3 /* Paytm_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7980820ECC77A00BEA1A3 /* Paytm_DemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED797FA20ECC77A00BEA1A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED797DD20ECC77500BEA1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED797E420ECC77500BEA1A3;
+			remoteInfo = "Paytm Demo";
+		};
+		CED7980520ECC77A00BEA1A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED797DD20ECC77500BEA1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED797E420ECC77500BEA1A3;
+			remoteInfo = "Paytm Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CED797E520ECC77500BEA1A3 /* Paytm Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paytm Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED797E820ECC77500BEA1A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CED797EA20ECC77500BEA1A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CED797ED20ECC77500BEA1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CED797EF20ECC77A00BEA1A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED797F220ECC77A00BEA1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CED797F420ECC77A00BEA1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED797F920ECC77A00BEA1A3 /* Paytm DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paytm DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED797FD20ECC77A00BEA1A3 /* Paytm_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paytm_DemoTests.swift; sourceTree = "<group>"; };
+		CED797FF20ECC77A00BEA1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED7980420ECC77A00BEA1A3 /* Paytm DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paytm DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED7980820ECC77A00BEA1A3 /* Paytm_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paytm_DemoUITests.swift; sourceTree = "<group>"; };
+		CED7980A20ECC77A00BEA1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED797E220ECC77500BEA1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED797F620ECC77A00BEA1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED7980120ECC77A00BEA1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED797DC20ECC77500BEA1A3 = {
+			isa = PBXGroup;
+			children = (
+				CED797E720ECC77500BEA1A3 /* Paytm Demo */,
+				CED797FC20ECC77A00BEA1A3 /* Paytm DemoTests */,
+				CED7980720ECC77A00BEA1A3 /* Paytm DemoUITests */,
+				CED797E620ECC77500BEA1A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED797E620ECC77500BEA1A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED797E520ECC77500BEA1A3 /* Paytm Demo.app */,
+				CED797F920ECC77A00BEA1A3 /* Paytm DemoTests.xctest */,
+				CED7980420ECC77A00BEA1A3 /* Paytm DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED797E720ECC77500BEA1A3 /* Paytm Demo */ = {
+			isa = PBXGroup;
+			children = (
+				CED797E820ECC77500BEA1A3 /* AppDelegate.swift */,
+				CED797EA20ECC77500BEA1A3 /* ViewController.swift */,
+				CED797EC20ECC77500BEA1A3 /* Main.storyboard */,
+				CED797EF20ECC77A00BEA1A3 /* Assets.xcassets */,
+				CED797F120ECC77A00BEA1A3 /* LaunchScreen.storyboard */,
+				CED797F420ECC77A00BEA1A3 /* Info.plist */,
+			);
+			path = "Paytm Demo";
+			sourceTree = "<group>";
+		};
+		CED797FC20ECC77A00BEA1A3 /* Paytm DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CED797FD20ECC77A00BEA1A3 /* Paytm_DemoTests.swift */,
+				CED797FF20ECC77A00BEA1A3 /* Info.plist */,
+			);
+			path = "Paytm DemoTests";
+			sourceTree = "<group>";
+		};
+		CED7980720ECC77A00BEA1A3 /* Paytm DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CED7980820ECC77A00BEA1A3 /* Paytm_DemoUITests.swift */,
+				CED7980A20ECC77A00BEA1A3 /* Info.plist */,
+			);
+			path = "Paytm DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED797E420ECC77500BEA1A3 /* Paytm Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED7980D20ECC77A00BEA1A3 /* Build configuration list for PBXNativeTarget "Paytm Demo" */;
+			buildPhases = (
+				CED797E120ECC77500BEA1A3 /* Sources */,
+				CED797E220ECC77500BEA1A3 /* Frameworks */,
+				CED797E320ECC77500BEA1A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Paytm Demo";
+			productName = "Paytm Demo";
+			productReference = CED797E520ECC77500BEA1A3 /* Paytm Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED797F820ECC77A00BEA1A3 /* Paytm DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED7981020ECC77A00BEA1A3 /* Build configuration list for PBXNativeTarget "Paytm DemoTests" */;
+			buildPhases = (
+				CED797F520ECC77A00BEA1A3 /* Sources */,
+				CED797F620ECC77A00BEA1A3 /* Frameworks */,
+				CED797F720ECC77A00BEA1A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED797FB20ECC77A00BEA1A3 /* PBXTargetDependency */,
+			);
+			name = "Paytm DemoTests";
+			productName = "Paytm DemoTests";
+			productReference = CED797F920ECC77A00BEA1A3 /* Paytm DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CED7980320ECC77A00BEA1A3 /* Paytm DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED7981320ECC77A00BEA1A3 /* Build configuration list for PBXNativeTarget "Paytm DemoUITests" */;
+			buildPhases = (
+				CED7980020ECC77A00BEA1A3 /* Sources */,
+				CED7980120ECC77A00BEA1A3 /* Frameworks */,
+				CED7980220ECC77A00BEA1A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED7980620ECC77A00BEA1A3 /* PBXTargetDependency */,
+			);
+			name = "Paytm DemoUITests";
+			productName = "Paytm DemoUITests";
+			productReference = CED7980420ECC77A00BEA1A3 /* Paytm DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED797DD20ECC77500BEA1A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = NITV;
+				TargetAttributes = {
+					CED797E420ECC77500BEA1A3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					CED797F820ECC77A00BEA1A3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CED797E420ECC77500BEA1A3;
+					};
+					CED7980320ECC77A00BEA1A3 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CED797E420ECC77500BEA1A3;
+					};
+				};
+			};
+			buildConfigurationList = CED797E020ECC77500BEA1A3 /* Build configuration list for PBXProject "Paytm Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED797DC20ECC77500BEA1A3;
+			productRefGroup = CED797E620ECC77500BEA1A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED797E420ECC77500BEA1A3 /* Paytm Demo */,
+				CED797F820ECC77A00BEA1A3 /* Paytm DemoTests */,
+				CED7980320ECC77A00BEA1A3 /* Paytm DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED797E320ECC77500BEA1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED797F320ECC77A00BEA1A3 /* LaunchScreen.storyboard in Resources */,
+				CED797F020ECC77A00BEA1A3 /* Assets.xcassets in Resources */,
+				CED797EE20ECC77500BEA1A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED797F720ECC77A00BEA1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED7980220ECC77A00BEA1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED797E120ECC77500BEA1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED797EB20ECC77500BEA1A3 /* ViewController.swift in Sources */,
+				CED797E920ECC77500BEA1A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED797F520ECC77A00BEA1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED797FE20ECC77A00BEA1A3 /* Paytm_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED7980020ECC77A00BEA1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED7980920ECC77A00BEA1A3 /* Paytm_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED797FB20ECC77A00BEA1A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED797E420ECC77500BEA1A3 /* Paytm Demo */;
+			targetProxy = CED797FA20ECC77A00BEA1A3 /* PBXContainerItemProxy */;
+		};
+		CED7980620ECC77A00BEA1A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED797E420ECC77500BEA1A3 /* Paytm Demo */;
+			targetProxy = CED7980520ECC77A00BEA1A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CED797EC20ECC77500BEA1A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED797ED20ECC77500BEA1A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CED797F120ECC77A00BEA1A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED797F220ECC77A00BEA1A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED7980B20ECC77A00BEA1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CED7980C20ECC77A00BEA1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED7980E20ECC77A00BEA1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Paytm Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Purushottam.Paytm-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED7980F20ECC77A00BEA1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Paytm Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Purushottam.Paytm-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CED7981120ECC77A00BEA1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Paytm DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Purushottam.Paytm-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paytm Demo.app/Paytm Demo";
+			};
+			name = Debug;
+		};
+		CED7981220ECC77A00BEA1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Paytm DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Purushottam.Paytm-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paytm Demo.app/Paytm Demo";
+			};
+			name = Release;
+		};
+		CED7981420ECC77A00BEA1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Paytm DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Purushottam.Paytm-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Paytm Demo";
+			};
+			name = Debug;
+		};
+		CED7981520ECC77A00BEA1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Paytm DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Purushottam.Paytm-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Paytm Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED797E020ECC77500BEA1A3 /* Build configuration list for PBXProject "Paytm Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED7980B20ECC77A00BEA1A3 /* Debug */,
+				CED7980C20ECC77A00BEA1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED7980D20ECC77A00BEA1A3 /* Build configuration list for PBXNativeTarget "Paytm Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED7980E20ECC77A00BEA1A3 /* Debug */,
+				CED7980F20ECC77A00BEA1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED7981020ECC77A00BEA1A3 /* Build configuration list for PBXNativeTarget "Paytm DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED7981120ECC77A00BEA1A3 /* Debug */,
+				CED7981220ECC77A00BEA1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED7981320ECC77A00BEA1A3 /* Build configuration list for PBXNativeTarget "Paytm DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED7981420ECC77A00BEA1A3 /* Debug */,
+				CED7981520ECC77A00BEA1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED797DD20ECC77500BEA1A3 /* Project object */;
+}
