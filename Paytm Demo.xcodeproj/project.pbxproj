@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B65B8CA332DA0ED4D50A77F /* Pods_Paytm_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E6F74715E153400606F69E /* Pods_Paytm_DemoTests.framework */; };
+		C7C8A1E56E282AEF148A2A64 /* Pods_Paytm_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E0E9DB7D8362EE33BC9997 /* Pods_Paytm_Demo.framework */; };
+		CC8B36938C6BD0D64BE8A1F7 /* Pods_Paytm_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4990531F8479886335CBE407 /* Pods_Paytm_DemoUITests.framework */; };
+		CEB77711214B6AB900EBBBC7 /* libPaymentsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB77710214B6AB900EBBBC7 /* libPaymentsSDK.a */; };
+		CEB77714214B6D9C00EBBBC7 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB77712214B6D9C00EBBBC7 /* SwiftyJSON.swift */; };
+		CEB77715214B6D9C00EBBBC7 /* NetworkConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB77713214B6D9C00EBBBC7 /* NetworkConfiguration.swift */; };
+		CEB77718214B7EA200EBBBC7 /* ProgressHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB77717214B7EA200EBBBC7 /* ProgressHud.swift */; };
 		CED797E920ECC77500BEA1A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED797E820ECC77500BEA1A3 /* AppDelegate.swift */; };
 		CED797EB20ECC77500BEA1A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED797EA20ECC77500BEA1A3 /* ViewController.swift */; };
 		CED797EE20ECC77500BEA1A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED797EC20ECC77500BEA1A3 /* Main.storyboard */; };
@@ -14,6 +21,8 @@
 		CED797F320ECC77A00BEA1A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED797F120ECC77A00BEA1A3 /* LaunchScreen.storyboard */; };
 		CED797FE20ECC77A00BEA1A3 /* Paytm_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED797FD20ECC77A00BEA1A3 /* Paytm_DemoTests.swift */; };
 		CED7980920ECC77A00BEA1A3 /* Paytm_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7980820ECC77A00BEA1A3 /* Paytm_DemoUITests.swift */; };
+		CED7982320ECCA7800BEA1A3 /* PaytmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7982220ECCA7800BEA1A3 /* PaytmManager.swift */; };
+		CED7982620ECCBC700BEA1A3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CED7982520ECCBC700BEA1A3 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17E6F74715E153400606F69E /* Pods_Paytm_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Paytm_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5140357D6452B872808607 /* Pods-Paytm DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paytm DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Paytm DemoTests/Pods-Paytm DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E296BF8045D5822FC250E86 /* Pods-Paytm DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paytm DemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Paytm DemoUITests/Pods-Paytm DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		323A7C421A4384990274D42B /* Pods-Paytm DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paytm DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Paytm DemoTests/Pods-Paytm DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		4990531F8479886335CBE407 /* Pods_Paytm_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Paytm_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67DC392ED4D1C40679927D41 /* Pods-Paytm Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paytm Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Paytm Demo/Pods-Paytm Demo.release.xcconfig"; sourceTree = "<group>"; };
+		9C5A664D7ADAA76DD63E76AA /* Pods-Paytm DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paytm DemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Paytm DemoUITests/Pods-Paytm DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE132306D97C79E9452F962A /* Pods-Paytm Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paytm Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Paytm Demo/Pods-Paytm Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		CEB77710214B6AB900EBBBC7 /* libPaymentsSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentsSDK.a; sourceTree = "<group>"; };
+		CEB77712214B6D9C00EBBBC7 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		CEB77713214B6D9C00EBBBC7 /* NetworkConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfiguration.swift; sourceTree = "<group>"; };
+		CEB77717214B7EA200EBBBC7 /* ProgressHud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressHud.swift; sourceTree = "<group>"; };
 		CED797E520ECC77500BEA1A3 /* Paytm Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paytm Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED797E820ECC77500BEA1A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED797EA20ECC77500BEA1A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,15 @@
 		CED7980420ECC77A00BEA1A3 /* Paytm DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paytm DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED7980820ECC77A00BEA1A3 /* Paytm_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paytm_DemoUITests.swift; sourceTree = "<group>"; };
 		CED7980A20ECC77A00BEA1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED7981720ECC95800BEA1A3 /* PaymentsSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentsSDK.h; sourceTree = "<group>"; };
+		CED7981920ECC95800BEA1A3 /* PGTransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGTransactionViewController.h; sourceTree = "<group>"; };
+		CED7981A20ECC95800BEA1A3 /* PGServerEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGServerEnvironment.h; sourceTree = "<group>"; };
+		CED7981B20ECC95800BEA1A3 /* PGOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGOrder.h; sourceTree = "<group>"; };
+		CED7981C20ECC95800BEA1A3 /* PGMerchantConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMerchantConfiguration.h; sourceTree = "<group>"; };
+		CED7982220ECCA7800BEA1A3 /* PaytmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaytmManager.swift; sourceTree = "<group>"; };
+		CED7982520ECCBC700BEA1A3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CED7982B20ECE0A500BEA1A3 /* Paytm Demo-bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Paytm Demo-bridging-header.h"; sourceTree = "<group>"; };
+		D4E0E9DB7D8362EE33BC9997 /* Pods_Paytm_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Paytm_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED7982620ECCBC700BEA1A3 /* SystemConfiguration.framework in Frameworks */,
+				CEB77711214B6AB900EBBBC7 /* libPaymentsSDK.a in Frameworks */,
+				C7C8A1E56E282AEF148A2A64 /* Pods_Paytm_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B65B8CA332DA0ED4D50A77F /* Pods_Paytm_DemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +102,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC8B36938C6BD0D64BE8A1F7 /* Pods_Paytm_DemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2B5A027F414EB354ACDB5C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE132306D97C79E9452F962A /* Pods-Paytm Demo.debug.xcconfig */,
+				67DC392ED4D1C40679927D41 /* Pods-Paytm Demo.release.xcconfig */,
+				1F5140357D6452B872808607 /* Pods-Paytm DemoTests.debug.xcconfig */,
+				323A7C421A4384990274D42B /* Pods-Paytm DemoTests.release.xcconfig */,
+				2E296BF8045D5822FC250E86 /* Pods-Paytm DemoUITests.debug.xcconfig */,
+				9C5A664D7ADAA76DD63E76AA /* Pods-Paytm DemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEB77716214B7E8200EBBBC7 /* Progress Hud */ = {
+			isa = PBXGroup;
+			children = (
+				CEB77717214B7EA200EBBBC7 /* ProgressHud.swift */,
+			);
+			path = "Progress Hud";
+			sourceTree = "<group>";
+		};
 		CED797DC20ECC77500BEA1A3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +137,8 @@
 				CED797FC20ECC77A00BEA1A3 /* Paytm DemoTests */,
 				CED7980720ECC77A00BEA1A3 /* Paytm DemoUITests */,
 				CED797E620ECC77500BEA1A3 /* Products */,
+				CED7981F20ECC9FA00BEA1A3 /* Frameworks */,
+				C2B5A027F414EB354ACDB5C0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +155,16 @@
 		CED797E720ECC77500BEA1A3 /* Paytm Demo */ = {
 			isa = PBXGroup;
 			children = (
+				CEB77716214B7E8200EBBBC7 /* Progress Hud */,
+				CED7982420ECCA7D00BEA1A3 /* Paytm Helper */,
+				CED7981620ECC92400BEA1A3 /* Paytm SDK */,
 				CED797E820ECC77500BEA1A3 /* AppDelegate.swift */,
 				CED797EA20ECC77500BEA1A3 /* ViewController.swift */,
 				CED797EC20ECC77500BEA1A3 /* Main.storyboard */,
 				CED797EF20ECC77A00BEA1A3 /* Assets.xcassets */,
 				CED797F120ECC77A00BEA1A3 /* LaunchScreen.storyboard */,
 				CED797F420ECC77A00BEA1A3 /* Info.plist */,
+				CED7982B20ECE0A500BEA1A3 /* Paytm Demo-bridging-header.h */,
 			);
 			path = "Paytm Demo";
 			sourceTree = "<group>";
@@ -125,6 +187,41 @@
 			path = "Paytm DemoUITests";
 			sourceTree = "<group>";
 		};
+		CED7981620ECC92400BEA1A3 /* Paytm SDK */ = {
+			isa = PBXGroup;
+			children = (
+				CEB77710214B6AB900EBBBC7 /* libPaymentsSDK.a */,
+				CED7981720ECC95800BEA1A3 /* PaymentsSDK.h */,
+				CED7981C20ECC95800BEA1A3 /* PGMerchantConfiguration.h */,
+				CED7981B20ECC95800BEA1A3 /* PGOrder.h */,
+				CED7981A20ECC95800BEA1A3 /* PGServerEnvironment.h */,
+				CED7981920ECC95800BEA1A3 /* PGTransactionViewController.h */,
+			);
+			path = "Paytm SDK";
+			sourceTree = "<group>";
+		};
+		CED7981F20ECC9FA00BEA1A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CED7982520ECCBC700BEA1A3 /* SystemConfiguration.framework */,
+				D4E0E9DB7D8362EE33BC9997 /* Pods_Paytm_Demo.framework */,
+				17E6F74715E153400606F69E /* Pods_Paytm_DemoTests.framework */,
+				4990531F8479886335CBE407 /* Pods_Paytm_DemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CED7982420ECCA7D00BEA1A3 /* Paytm Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CEB77713214B6D9C00EBBBC7 /* NetworkConfiguration.swift */,
+				CEB77712214B6D9C00EBBBC7 /* SwiftyJSON.swift */,
+				CED7982220ECCA7800BEA1A3 /* PaytmManager.swift */,
+			);
+			name = "Paytm Helper";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CED7980D20ECC77A00BEA1A3 /* Build configuration list for PBXNativeTarget "Paytm Demo" */;
 			buildPhases = (
+				E74CDB507422CBDC2D23AB32 /* [CP] Check Pods Manifest.lock */,
 				CED797E120ECC77500BEA1A3 /* Sources */,
 				CED797E220ECC77500BEA1A3 /* Frameworks */,
 				CED797E320ECC77500BEA1A3 /* Resources */,
+				D175DB3D24DB49D1706BFA88 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +248,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CED7981020ECC77A00BEA1A3 /* Build configuration list for PBXNativeTarget "Paytm DemoTests" */;
 			buildPhases = (
+				A5528F2E96D93D14B4E9DAA7 /* [CP] Check Pods Manifest.lock */,
 				CED797F520ECC77A00BEA1A3 /* Sources */,
 				CED797F620ECC77A00BEA1A3 /* Frameworks */,
 				CED797F720ECC77A00BEA1A3 /* Resources */,
@@ -167,6 +267,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CED7981320ECC77A00BEA1A3 /* Build configuration list for PBXNativeTarget "Paytm DemoUITests" */;
 			buildPhases = (
+				0B39422F6B8DF7B04F2C374A /* [CP] Check Pods Manifest.lock */,
 				CED7980020ECC77A00BEA1A3 /* Sources */,
 				CED7980120ECC77A00BEA1A3 /* Frameworks */,
 				CED7980220ECC77A00BEA1A3 /* Resources */,
@@ -251,13 +352,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B39422F6B8DF7B04F2C374A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Paytm DemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5528F2E96D93D14B4E9DAA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Paytm DemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D175DB3D24DB49D1706BFA88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Paytm Demo/Pods-Paytm Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Paytm Demo/Pods-Paytm Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E74CDB507422CBDC2D23AB32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Paytm Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CED797E120ECC77500BEA1A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED7982320ECCA7800BEA1A3 /* PaytmManager.swift in Sources */,
+				CEB77715214B6D9C00EBBBC7 /* NetworkConfiguration.swift in Sources */,
 				CED797EB20ECC77500BEA1A3 /* ViewController.swift in Sources */,
 				CED797E920ECC77500BEA1A3 /* AppDelegate.swift in Sources */,
+				CEB77718214B7EA200EBBBC7 /* ProgressHud.swift in Sources */,
+				CEB77714214B6D9C00EBBBC7 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,16 +610,31 @@
 		};
 		CED7980E20ECC77A00BEA1A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE132306D97C79E9452F962A /* Pods-Paytm Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = B865P7W52D;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Paytm Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Purushottam.Paytm-Demo";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Paytm\\ Demo/Paytm\\ SDK",
+					"$(PROJECT_DIR)/Paytm\\ Demo/Paytm\\ SDK",
+					"$(PROJECT_DIR)/Paytm\\ Demo/Paytm\\ SDK",
+					"$(PROJECT_DIR)/Paytm\\ Demo/Paytm\\ SDK",
+				);
+				NEW_SETTINGd = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newitventure.wtvgo.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c646ddf7-a455-48a6-828f-3de20c118315";
+				PROVISIONING_PROFILE_SPECIFIER = development_wtvgo;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Paytm Demo/Paytm Demo-bridging-header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,16 +642,31 @@
 		};
 		CED7980F20ECC77A00BEA1A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67DC392ED4D1C40679927D41 /* Pods-Paytm Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = B865P7W52D;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Paytm Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Purushottam.Paytm-Demo";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Paytm\\ Demo/Paytm\\ SDK",
+					"$(PROJECT_DIR)/Paytm\\ Demo/Paytm\\ SDK",
+					"$(PROJECT_DIR)/Paytm\\ Demo/Paytm\\ SDK",
+					"$(PROJECT_DIR)/Paytm\\ Demo/Paytm\\ SDK",
+				);
+				NEW_SETTINGd = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.newitventure.wtvgo.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c646ddf7-a455-48a6-828f-3de20c118315";
+				PROVISIONING_PROFILE_SPECIFIER = development_wtvgo;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Paytm Demo/Paytm Demo-bridging-header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +674,7 @@
 		};
 		CED7981120ECC77A00BEA1A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F5140357D6452B872808607 /* Pods-Paytm DemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +695,7 @@
 		};
 		CED7981220ECC77A00BEA1A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 323A7C421A4384990274D42B /* Pods-Paytm DemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +716,7 @@
 		};
 		CED7981420ECC77A00BEA1A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E296BF8045D5822FC250E86 /* Pods-Paytm DemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +736,7 @@
 		};
 		CED7981520ECC77A00BEA1A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C5A664D7ADAA76DD63E76AA /* Pods-Paytm DemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
